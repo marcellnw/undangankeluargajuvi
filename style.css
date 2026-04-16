@@ -1,9 +1,9 @@
-/* VIDEO BACKGROUND */
 .card {
   position: relative;
   overflow: hidden;
 }
 
+/* VIDEO */
 .bg-video {
   position: absolute;
   inset: 0;
@@ -11,17 +11,19 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  filter: brightness(0.7) blur(1px);
+  filter: brightness(0.6) blur(2px);
 }
 
+/* OVERLAY */
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.6);
-  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(10px);
   z-index: 1;
 }
 
+/* CONTENT */
 .content {
   position: relative;
   z-index: 2;
